@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/counter', Counter::class);
+Route::get('/users', function () {
+    return view('users');
+});
